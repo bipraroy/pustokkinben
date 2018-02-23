@@ -12,7 +12,7 @@
     <body class="text_center">
 
     	<div class="container">
-    		<%= form_with model: @user,:class => 'form-signin', url:loggin_user_path, local:true do |form| %>
+    		<%= form_with model: @user,:class => 'form-signin', url:create_admin_path, local:true do |form| %>
     			<img class="mb-4" src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72" style="align-items: center;">
 				<p>
 					<%= form.label :Username %>
@@ -23,7 +23,7 @@
 					<%= form.password_field :password,:class => 'form-control' %>
 				</p>
 				<p>
-					<%= form.submit "Login",:class => 'btn btn-lg btn-primary btn-block'%>
+					<%= form.submit "Create Admin",:class => 'btn btn-lg btn-primary btn-block'%>
 				</p>
     	</div>-->
     	<!--<div class="container" style="align-content: center;">
