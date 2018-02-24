@@ -3,13 +3,15 @@ development:
   encoding: unicode
   database: boikeno_database
   pool: 5
-  username: bipra_dev
-  password: dev@123
+  host: localhost
+  username: postgres
+  password: postgres
 
 test:
   adapter: postgresql
   encoding: unicode
   database: boikeno_database
   pool: 5
-  username: bipra_dev
-  password: dev@123
+  host: localhost
+  username: postgres
+  password: postgres
